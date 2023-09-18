@@ -1,0 +1,23 @@
+// Cpp_Lap2_.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
+//
+
+#include <iostream>
+
+int main()
+{
+    setlocale(LC_ALL, "Rus");
+
+    unsigned int x;
+    unsigned int i;
+
+    std::cout << "Введите число X: ";
+    std::cin >> x;
+    std::cout << "\n";
+    std::cout << "Какой бит установть в 0?: ";
+    std::cin >> i;
+    std::cout << "\n";
+    
+    std::cout << (x & ~(1 << i));
+
+    return 1;
+}
