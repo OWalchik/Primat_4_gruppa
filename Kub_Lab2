@@ -1,0 +1,15 @@
+// Cpp_Lap2_.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
+//
+
+#include <iostream>
+
+int main()
+{
+    unsigned short A;
+
+    std::cin >> A;
+    std::cout << A*A*A ;
+
+    return 1;
+}
+
