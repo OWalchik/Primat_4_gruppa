@@ -1,0 +1,42 @@
+#include <iostream>
+
+int main()
+{
+    setlocale(LC_ALL, "Rus");
+
+    unsigned short n;
+
+
+    std::cout << "Введите цифру: ";
+    std::cin >> n;
+    std::cout << std::endl;
+    switch (n)
+    {
+        case 0: std::cout << "Нуль";
+            break;
+        case 1: std::cout << "Один";
+            break;
+        case 2: std::cout << "Два";
+            break;
+        case 3: std::cout << "Три";
+            break;
+        case 4: std::cout << "Четыре";
+            break;
+        case 5: std::cout << "Пять";
+            break;
+        case 6: std::cout << "Шесть";
+            break;
+        case 7: std::cout << "Семь";
+            break;
+        case 8: std::cout << "Восемь";
+            break;
+        case 9: std::cout << "Девять";
+            break;
+
+        default:
+            std::cout << "Это не цифра";
+            break;
+    }
+
+}
+
