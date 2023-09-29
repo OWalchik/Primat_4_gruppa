@@ -1,0 +1,36 @@
+#include <iostream>
+
+int main()
+{
+    setlocale(LC_ALL, "Rus");
+
+    unsigned int a;
+    unsigned int b;
+    unsigned int c;
+
+
+    std::cout << "Введите число A: " << std::endl;
+    std::cin >> a;
+
+    std::cout << "Введите число B: " << std::endl;
+    std::cin >> b;
+
+    std::cout << "Введите число C: " << std::endl;
+    std::cin >> c;
+
+
+    if ((a % c == 0) and (b % c == 0))
+    {
+        std::cout << (a + b) / c << std::endl;
+    }
+    else if ((a % c == 0) and (b % c != 0))
+    {
+        std::cout << a/c + b << std::endl;
+    }
+    else
+    {
+        std::cout << a-b-c << std::endl;
+    }
+
+}
+
