@@ -1,0 +1,21 @@
+
+
+#include <iostream>
+
+int main()
+{
+    short x;
+
+    std::cin >> x;
+
+    if (x == -1)
+    {
+        std::cout << "Negative number";
+    }
+    else
+    {
+        std::cout << "Positive number";
+    }
+
+    return 1;
+}
